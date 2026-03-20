@@ -98,6 +98,11 @@ project:
           children:
             - file: notebooks/projects/model-obs_your_own_model.ipynb
 
+    - file: dart_index.md
+      children:
+        - file: notebooks/dart/dart_cesm_tutorial.ipynb
+          title: Running DART with CESM-MOM6
+
 site:
   options:
     logo: long_crocodile.png
